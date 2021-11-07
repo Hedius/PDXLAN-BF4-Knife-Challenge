@@ -111,49 +111,49 @@ namespace PRoConEvents {
         </p>
 		
 		<h2>Settings</h2>
-        <h4>Debug Level - </h4>
+        <h4>Debug Level</h4>
         <p>Default 0. Use 2 for logging the plugin events.</p>
 	    <br/>
-	    <h4>Debug Mode (No Action) - </h4>
+	    <h4>Debug Mode (No Action)</h4>
         <p>The Plugin will not issue admin actions if this option is activated.</p>
         <br/>
-        <h4>Whitelist - </h4>
+        <h4>Whitelist</h4>
         <p>Whitelisted players have to protect the VIP and are allowed to use additional weapons.</p>
         <br/>
-        <h4>VIP - </h4>
+        <h4>VIP</h4>
         <p>The VIP.</p>
         <br/>
-        <h4>Allowed weapons for everyone - </h4>
+        <h4>Allowed weapons for everyone</h4>
         <p>REGEX or expression containing the allowed weapon codes. All players are allowed to use these weapons.</p>
         <br/>
-        <h4>Allowed weapons for whitelisted players - </h4>
+        <h4>Allowed weapons for whitelisted players</h4>
         <p>REGEX or expression containing allowed weapons for whitelisted players. Whitelisted players are allowed to use weapons from both lists.</p>
         <br/>
-        <h4>Warnings (kills) before punishment - </h4>
+        <h4>Warnings (kills) before punishment</h4>
         <p>How many kills should the plugin issue before kicking/banning players for violations? Default: 2</p>
         <br/>
         <h4>Temp-Ban duration (Minutes)</h4>
         <p>Duration of temp-bans in minutes. Default: 30</p>
         <br/>
-        <h4>Enable Discord Webhook - </h4>
+        <h4>Enable Discord Webhook</h4>
         <p>Enable discord notifications.</p>
         <br/>
-        <h4>Author - </h4>
+        <h4>Author</h4>
         <p>WebHook Author. Default: PDXLAN</p>
         <br/>
-        <h4>WebHook URL - </h4>
+        <h4>WebHook URL</h4>
         <p>WebHook URL</p>
         <br/>
-        <h4>Current Status (Display Only) - </h4>
+        <h4>Current Status (Display Only)</h4>
         <p>The current round status.</p>
         <br/>
-        <h4>Current VIP (Display Only) - </h4>
+        <h4>Current VIP (Display Only)</h4>
         <p>The current VIP.</p>
         <br/>       
-	    <h4>Start Round - </h4>
+	    <h4>Start Round</h4>
         <p>Start the round.</p>
         <br/>       	
-		<h4>Reset Round - </h4>
+		<h4>Reset Round</h4>
         <p>Reset/cancel the round.</p>
         <br/>       		
 		
