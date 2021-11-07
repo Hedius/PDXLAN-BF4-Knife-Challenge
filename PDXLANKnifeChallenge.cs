@@ -74,7 +74,7 @@ namespace PRoConEvents {
         }
 
         public string GetPluginVersion() {
-            return "1.0.0.0";
+            return Version;
         }
 
         public string GetPluginAuthor() {
@@ -164,7 +164,7 @@ namespace PRoConEvents {
         <p>GPLv3</p>
         
 		<h2>Changelog</h3>
-		<blockquote><h4>1.0.0.0 (07-NOV-2021)</h4>
+		<blockquote><h4>1.0.0 (07-NOV-2021)</h4>
 			- initial version<br/>
 		</blockquote>
 		";
@@ -1072,7 +1072,7 @@ namespace PRoConEvents {
 
         #region members
 
-        protected string Version = "0.0.1";
+        protected string Version = "1.0.0";
         private bool _isEnabled;
 
         // Section 1 - General
