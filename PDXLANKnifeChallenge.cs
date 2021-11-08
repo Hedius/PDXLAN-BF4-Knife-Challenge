@@ -164,6 +164,10 @@ namespace PRoConEvents {
         <p>GPLv3</p>
         
 		<h2>Changelog</h3>
+		<blockquote><h4>1.0.1 (08-NOV-2021)</h4>
+			- fix typo in log msgs<br/>
+            - fix auto settings updates <br/>
+		</blockquote>
 		<blockquote><h4>1.0.0 (07-NOV-2021)</h4>
 			- initial version<br/>
 		</blockquote>
@@ -231,7 +235,7 @@ namespace PRoConEvents {
 
         public void UpdateSettingsPage() {
             // from AdKats
-            ExecuteCommand("procon.protected.plugins.setVariable", "PDKXLANKnifeChallenge", "UpdateSettings", "Update");
+            ExecuteCommand("procon.protected.plugins.setVariable", "PDXLANKnifeChallenge", "UpdateSettings", "Update");
         }
 
         private string GetSettingSection(string number) {
@@ -685,7 +689,7 @@ namespace PRoConEvents {
         #region ServerCommands
 
         public void PRoConChat(string text) {
-            ExecuteCommand("procon.protected.chat.write", E("^bPDKLANKnifeChallenge^n >" + text));
+            ExecuteCommand("procon.protected.chat.write", E("^bPDXLANKnifeChallenge^n > " + text));
         }
 
         public void PlayerSay(string name, string text) {
@@ -1072,7 +1076,7 @@ namespace PRoConEvents {
 
         #region members
 
-        protected string Version = "1.0.0";
+        protected string Version = "1.0.1";
         private bool _isEnabled;
 
         // Section 1 - General
