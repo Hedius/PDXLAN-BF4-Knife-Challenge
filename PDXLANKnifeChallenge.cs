@@ -897,7 +897,7 @@ namespace PRoConEvents {
                 weapon = friendlyWeaponName.VehicleName;
 
             // Forbidden weapon usage?
-            if ((isKillerWhitelisted || isKillerVip) && !isWhitelistedWeapon && !isAllowedWeapon || !isAllowedWeapon) {
+            if (((isKillerWhitelisted || isKillerVip) && !isWhitelistedWeapon && !isAllowedWeapon) || (!isKillerWhitelisted && !isKillerVip && !isAllowedWeapon)) {
                 PunishPlayer(killer, weapon);
                 return;
             }
